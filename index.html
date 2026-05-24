@@ -8,13 +8,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <nav class="navbar">
-      <h2 class="logo">REJWAN</h2>
+      <a href="#home" class="brand">
+        <span class="brand-icon">R</span>
+        <span>REJWAN</span>
+      </a>
+
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#learning">Learning</a></li>
+        <li><a href="#journey">Journey</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -22,127 +26,274 @@
     </nav>
   </header>
 
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <p class="small-title">Welcome to my personal website</p>
-      <h1>I'm <span>Md. Neamot Ali Rejwan</span></h1>
-      <h3>Diploma Engineering Student | Future Developer | Lifelong Learner</h3>
-      <p>
-        I am a Computer Science & Technology student from Bangladesh. I love learning programming,
-        building websites, exploring AI, and improving myself step by step every day.
-      </p>
-      <a href="#about" class="btn">Know More About Me</a>
-    </div>
-  </section>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg glow-one"></div>
+      <div class="hero-bg glow-two"></div>
 
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <div class="about-box">
-      <p>
-        My name is <strong>Md. Neamot Ali Rejwan</strong>. I am a Diploma in Engineering student in
-        <strong>Computer Science & Technology</strong>. I am passionate about technology, programming,
-        web development, AI, and real-world problem solving.
-      </p>
-      <p>
-        I am currently focusing on improving my skills in <strong>HTML, CSS, JavaScript, Java, Python,
-        Git, GitHub, and basic AI concepts</strong>. I believe that small daily practice can create a big future.
-      </p>
-      <p>
-        My main goal is to become a skilled developer, create useful projects, build a strong portfolio,
-        and become confident in both technical skills and communication.
-      </p>
-    </div>
-  </section>
+      <div class="hero-container">
+        <div class="hero-text">
+          <p class="eyebrow">Personal Website • Student • Developer Journey</p>
+          <h1>Hi, I'm <span>Md. Neamot Ali Rejwan</span></h1>
+          <h2>Computer Science & Technology Student from Bangladesh</h2>
+          <p class="hero-desc">
+            I am learning web development, programming, AI, and real-world project building.
+            My mission is to grow step by step, improve my skills, and become a confident developer.
+          </p>
 
-  <section id="learning" class="section dark-section">
-    <h2>What I Am Learning</h2>
-    <div class="learning-grid">
-      <div class="info-card">
-        <h3>Web Development</h3>
-        <p>I am learning how to build modern and responsive websites using HTML, CSS, JavaScript, and frameworks.</p>
-      </div>
-      <div class="info-card">
-        <h3>Programming</h3>
-        <p>I practice Java and Python to improve logic, problem-solving, and real project development skills.</p>
-      </div>
-      <div class="info-card">
-        <h3>AI & Future Tech</h3>
-        <p>I am interested in Artificial Intelligence and want to learn how AI can solve real-life problems.</p>
-      </div>
-      <div class="info-card">
-        <h3>Self Improvement</h3>
-        <p>I am also working on communication, confidence, English speaking, discipline, and career growth.</p>
-      </div>
-    </div>
-  </section>
+          <div class="hero-buttons">
+            <a href="#about" class="btn primary-btn">Explore My Story</a>
+            <a href="#projects" class="btn secondary-btn">View Projects</a>
+          </div>
+        </div>
 
-  <section id="skills" class="section">
-    <h2>My Skills</h2>
-    <div class="skills-box">
-      <div>HTML</div>
-      <div>CSS</div>
-      <div>JavaScript</div>
-      <div>Python</div>
-      <div>Java</div>
-      <div>Git & GitHub</div>
-      <div>Flask Basics</div>
-      <div>Responsive Design</div>
-      <div>Problem Solving</div>
-    </div>
-  </section>
+        <div class="profile-card">
+          <div class="profile-circle">R</div>
+          <h3>Md. Neamot Ali Rejwan</h3>
+          <p>Diploma Engineering Student</p>
+          <div class="profile-tags">
+            <span>Web Dev</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>AI Learner</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <section id="projects" class="section dark-section">
-    <h2>My Practice Projects</h2>
-    <div class="project-container">
-      <div class="project-card">
-        <h3>Personal Portfolio Website</h3>
-        <p>A clean website to introduce myself, my skills, learning journey, and projects.</p>
+    <section class="stats-section">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>05+</h3>
+          <p>Core Skills</p>
+        </div>
+        <div class="stat-card">
+          <h3>06+</h3>
+          <p>Study Subjects</p>
+        </div>
+        <div class="stat-card">
+          <h3>10+</h3>
+          <p>Practice Projects</p>
+        </div>
+        <div class="stat-card">
+          <h3>∞</h3>
+          <p>Learning Mindset</p>
+        </div>
       </div>
-      <div class="project-card">
-        <h3>QR Code Generator</h3>
-        <p>A Python and Flask based project that can generate QR codes from user input.</p>
-      </div>
-      <div class="project-card">
-        <h3>E-Commerce Product Page</h3>
-        <p>A responsive product card layout using HTML, CSS Grid, Flexbox, and hover effects.</p>
-      </div>
-      <div class="project-card">
-        <h3>Java Practice Programs</h3>
-        <p>Small Java programs using input, condition, loop, array, and object-oriented basics.</p>
-      </div>
-      <div class="project-card">
-        <h3>Python Practice</h3>
-        <p>Beginner to intermediate Python practice projects for logic building and automation.</p>
-      </div>
-      <div class="project-card">
-        <h3>GitHub Portfolio</h3>
-        <p>I am learning to organize my projects and showcase my work professionally on GitHub.</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section goals">
-    <h2>My Goals</h2>
-    <div class="goal-box">
-      <p>✅ Become a skilled full-stack web developer</p>
-      <p>✅ Build real-world projects and publish them online</p>
-      <p>✅ Improve English communication and confidence</p>
-      <p>✅ Learn AI from beginner level and apply it in projects</p>
-      <p>✅ Create a strong GitHub and personal brand</p>
-    </div>
-  </section>
+    <section id="about" class="section about-section">
+      <div class="section-heading">
+        <p>About Me</p>
+        <h2>Who I Am & What I Do</h2>
+      </div>
 
-  <section id="contact" class="section contact dark-section">
-    <h2>Contact & Social</h2>
-    <p><strong>Email:</strong> rejwanislam76@gmail.com</p>
-    <p><strong>GitHub:</strong> github.com/ZeroByteHero1</p>
-    <p><strong>Location:</strong> Bangladesh</p>
-    <p><strong>Interest:</strong> Web Development, Programming, AI, Projects, and Learning</p>
-  </section>
+      <div class="about-layout">
+        <div class="about-card big-card">
+          <h3>My Identity</h3>
+          <p>
+            My name is <strong>Md. Neamot Ali Rejwan</strong>. I am a Diploma in Engineering student in
+            <strong>Computer Science & Technology</strong>. I am passionate about technology, programming,
+            web development, AI, and practical problem solving.
+          </p>
+          <p>
+            I believe that consistency is more powerful than talent. That is why I focus on daily practice,
+            project building, and improving my communication and technical confidence.
+          </p>
+        </div>
+
+        <div class="about-mini-grid">
+          <div class="mini-card">
+            <span>🎓</span>
+            <h4>Student</h4>
+            <p>Diploma Engineering, Computer Science & Technology.</p>
+          </div>
+          <div class="mini-card">
+            <span>💻</span>
+            <h4>Developer Journey</h4>
+            <p>Learning HTML, CSS, JavaScript, Java, Python, and GitHub.</p>
+          </div>
+          <div class="mini-card">
+            <span>🚀</span>
+            <h4>Goal</h4>
+            <p>Become a skilled full-stack developer and build useful projects.</p>
+          </div>
+          <div class="mini-card">
+            <span>🧠</span>
+            <h4>Mindset</h4>
+            <p>Learn deeply, practice daily, and improve step by step.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="journey" class="section dark-section">
+      <div class="section-heading">
+        <p>Learning Journey</p>
+        <h2>What I Am Building Myself Into</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h3>Web Foundation</h3>
+            <p>Building strong basics in HTML, CSS, responsive design, layout, and UI structure.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h3>Programming Logic</h3>
+            <p>Practicing Java and Python to improve problem-solving, conditions, loops, arrays, and projects.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h3>Real Projects</h3>
+            <p>Creating portfolio websites, QR code tools, e-commerce pages, and GitHub projects.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <h3>Future Growth</h3>
+            <p>Learning AI, improving communication, building a strong portfolio, and preparing for career growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p>Skills</p>
+        <h2>Tools & Technologies I Practice</h2>
+      </div>
+
+      <div class="skills-wrapper">
+        <div class="skill-pill">HTML5</div>
+        <div class="skill-pill">CSS3</div>
+        <div class="skill-pill">Responsive Design</div>
+        <div class="skill-pill">JavaScript Basics</div>
+        <div class="skill-pill">Java Programming</div>
+        <div class="skill-pill">Python</div>
+        <div class="skill-pill">Flask Basics</div>
+        <div class="skill-pill">Git</div>
+        <div class="skill-pill">GitHub</div>
+        <div class="skill-pill">Problem Solving</div>
+        <div class="skill-pill">Linux Terminal</div>
+        <div class="skill-pill">AI Learning</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section dark-section">
+      <div class="section-heading">
+        <p>Projects</p>
+        <h2>My Practice & Learning Projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured-project">
+          <span class="project-number">01</span>
+          <h3>Personal Portfolio Website</h3>
+          <p>A modern personal website to introduce my identity, learning journey, skills, and goals.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">02</span>
+          <h3>QR Code Generator</h3>
+          <p>A Python and Flask based project that generates QR codes from user input.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Flask</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">03</span>
+          <h3>E-Commerce Product Page</h3>
+          <p>A product card layout using Grid, Flexbox, hover effects, and responsive design.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS Grid</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">04</span>
+          <h3>Java Practice Programs</h3>
+          <p>Small programs using input, condition, loop, array, and object-oriented programming basics.</p>
+          <div class="project-tech">
+            <span>Java</span>
+            <span>Logic</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">05</span>
+          <h3>Python Practice</h3>
+          <p>Beginner-friendly Python exercises and mini projects for automation and logic building.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Practice</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">06</span>
+          <h3>GitHub Portfolio</h3>
+          <p>Organizing projects, pushing code, and building a professional developer profile online.</p>
+          <div class="project-tech">
+            <span>Git</span>
+            <span>GitHub</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section goals-section">
+      <div class="section-heading">
+        <p>Vision</p>
+        <h2>My Goals</h2>
+      </div>
+
+      <div class="goals-grid">
+        <div class="goal-card">Become a skilled full-stack web developer</div>
+        <div class="goal-card">Build real-world projects and publish them online</div>
+        <div class="goal-card">Improve English communication and confidence</div>
+        <div class="goal-card">Learn AI from beginner level and apply it in projects</div>
+        <div class="goal-card">Create a strong GitHub and personal brand</div>
+        <div class="goal-card">Keep learning with discipline and consistency</div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let's Connect</h2>
+          <p>I am always learning, practicing, and building my future through technology.</p>
+        </div>
+
+        <div class="contact-info">
+          <p><strong>Email:</strong> rejwanislam76@gmail.com</p>
+          <p><strong>GitHub:</strong> github.com/ZeroByteHero1</p>
+          <p><strong>Location:</strong> Bangladesh</p>
+          <p><strong>Interests:</strong> Web Development, Programming, AI, Projects</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2026 Md. Neamot Ali Rejwan. Made with HTML & CSS.</p>
+    <p>© 2026 Md. Neamot Ali Rejwan. Designed with HTML & CSS.</p>
   </footer>
 </body>
 </html>
+
 
